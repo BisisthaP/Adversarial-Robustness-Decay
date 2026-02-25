@@ -16,12 +16,6 @@ Key motivation: Naive compression may introduce reliability risks in safety-crit
 
 These results align with prior observations in the literature (e.g., increased vulnerability in high-compression regimes without adversarial fine-tuning).
 
-### Project Structure
-├── notebook/               # Main Colab notebook (Brittleness_of_Efficiency.ipynb)
-├── results/                # Saved plots: ASR vs. sparsity, Integrated Gradients examples
-├── requirements.txt        # Dependencies (PyTorch, Foolbox, Captum, etc.)
-└── README.md
-
 ### Quick Setup & Reproduction
 1. Open the notebook in Google Colab (free GPU recommended):  
    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/brittleness-of-efficiency/blob/main/notebook/Brittleness_of_Efficiency.ipynb)
