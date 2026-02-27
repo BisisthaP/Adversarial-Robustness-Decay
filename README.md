@@ -1,6 +1,6 @@
 # The Brittleness of Efficiency: Adversarial Sensitivity in Compressed Vision Models
 
-**A quick research investigation into whether model compression via pruning makes neural networks more vulnerable to adversarial attacks.**
+**A research investigation into whether model compression via pruning makes neural networks more vulnerable to adversarial attacks.**
 
 ### Overview
 Modern neural networks are frequently compressed (e.g., via pruning) to enable efficient deployment on edge devices, supporting sustainable and low-carbon AI. However, does this efficiency come at the hidden cost of reduced adversarial robustness?
