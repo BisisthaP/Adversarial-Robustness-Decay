@@ -9,7 +9,7 @@ This project explores the trade-off by applying unstructured pruning to a pre-tr
 
 Key motivation: Naive compression may introduce reliability risks in safety-critical or resource-constrained applications.
 
-### Key Findings (from a 2-hour Colab experiment)
+### Key Findings 
 - **Robustness Cliff Observed**: At 75% sparsity, attack success rate (ASR) under FGSM (ε=8/255) increased by ~30–45% compared to the baseline (e.g., from ~60–70% to near 100% on many examples), while clean top-1 accuracy dropped only ~3–8%.
 - **Attention Drift**: Integrated Gradients attribution maps show pruned models increasingly rely on high-frequency noise and non-semantic patterns rather than robust, meaningful features — providing visual evidence of lost inductive bias.
 - **Implication**: Aggressive pruning without robustness-aware techniques can make models significantly more fragile to simple adversarial perturbations, highlighting a need for careful design in efficient AI systems.
